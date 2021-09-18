@@ -25,7 +25,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -85,7 +85,7 @@ article h2 {
     font-size: 36px;
 }
 
-/* Aside section */
+/* Aside section, column on the right */
 
 aside {
     margin-right: 20px;
