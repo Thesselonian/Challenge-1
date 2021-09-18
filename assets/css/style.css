@@ -60,7 +60,14 @@ a {
 
 /* Main section articles */
 
-.main-section {
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -69,11 +76,11 @@ a {
     color: #ffffff;
 }
 
-.main-section img {
+article img {
     max-height: 200px;
 }
 
-.main-section h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -86,13 +93,6 @@ a {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 16px;
 }
 
 /* Aside section */
@@ -122,6 +122,8 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Footer */
 
 .footer {
     padding: 30px;
